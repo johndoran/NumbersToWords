@@ -1,5 +1,5 @@
 ## Numbers To Words
-A little to convert numbers to human readable words. Only supports less than 1000 for now
+A little tool to convert numbers to human readable words. Only supports less than 1000 for now.
 * 1 = One
 * 15 = Fifteen
 * 192 = One Hundred and Ninety Two
