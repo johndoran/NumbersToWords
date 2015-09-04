@@ -1,0 +1,12 @@
+.DS_Store
+*.iml
+**/*.iml
+*.ipr
+*.iws
+.gradle
+.idea
+build
+out
+classes
+sia-api/src/generated/
+server-core/src/generated

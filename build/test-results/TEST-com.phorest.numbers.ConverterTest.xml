@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.phorest.numbers.ConverterTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2015-09-04T17:56:15" hostname="Johns-MacBook-Pro.local" time="0.343">
+  <properties/>
+  <testcase name="should convert basic number to string" classname="com.phorest.numbers.ConverterTest" time="0.343">
+    <failure message="Condition not satisfied:&#10;&#10;readableString == &quot;One&quot;&#10;|              |&#10;null           false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+readableString == &quot;One&quot;
+|              |
+null           false
+
+	at com.phorest.numbers.ConverterTest.should convert basic number to string(ConverterTest.groovy:21)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jdoran.numbers.NumberToWordsConverterSpec" tests="6" skipped="0" failures="0" errors="0" timestamp="2015-09-04T19:55:15" hostname="Johns-MacBook-Pro.local" time="0.296">
+  <properties/>
+  <testcase name="should not handle more than one thousand" classname="com.jdoran.numbers.NumberToWordsConverterSpec" time="0.192"/>
+  <testcase name="should not allow unsupported language" classname="com.jdoran.numbers.NumberToWordsConverterSpec" time="0.003"/>
+  <testcase name="should convert small numbers" classname="com.jdoran.numbers.NumberToWordsConverterSpec" time="0.039"/>
+  <testcase name="should handle negative numbers elegantly" classname="com.jdoran.numbers.NumberToWordsConverterSpec" time="0.002"/>
+  <testcase name="should convert numbers in the twenties" classname="com.jdoran.numbers.NumberToWordsConverterSpec" time="0.019"/>
+  <testcase name="should convert numbers in hundreds" classname="com.jdoran.numbers.NumberToWordsConverterSpec" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
