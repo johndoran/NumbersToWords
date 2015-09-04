@@ -5,6 +5,8 @@ package com.jdoran.numbers
  */
 class NumberToWordsConverter {
   private static final String NEGATIVE = "Negative"
+  private static final String AND = " and "
+  private static final String HUNDRED = " Hundred"
 
   private List supportedLanguages = ["en"]
   private String currentLanguage = "en"
@@ -45,15 +47,15 @@ class NumberToWordsConverter {
 
   private String gerReadableNumberForLessThanOneThousand(int number) {
     def  startNumber = Math.floor(number / 100.toDouble())
-    def no = normalNumbers[startNumber.toInteger()] + " Hundred"
+    def no = normalNumbers[startNumber.toInteger()] + HUNDRED
 
 
     def remainder = number % 100
     if (remainder != 0) {
       if(remainder<20) {
-        no += " and " + normalNumbers[remainder]
+        no += AND + normalNumbers[remainder]
       }else{
-        no += " and " + getReadableNumberForLessThanOneHundred(remainder)
+        no += AND + getReadableNumberForLessThanOneHundred(remainder)
       }
     }
     return no
